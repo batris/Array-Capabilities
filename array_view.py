@@ -15,12 +15,6 @@ class ViewKind(Enum):
     REVERSED = 4
     STRIDED_CHUNK = 5
 
-
-
-class ConsumedWrapper:
-    def __init__(self, value = False):
-        self.value = value
-
 class ArrayView:
     def __init__(self, length, parent = None, translation = None, kind = None):
 
