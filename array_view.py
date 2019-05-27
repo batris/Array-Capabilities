@@ -255,10 +255,10 @@ class ArrayView:
                 bucket_index = 0
 
         if i < len(translation):
-            if bucket_index < splits - 1:
-                bucket_index += 1
-            else:
-                bucket_index = 0            
+            # if bucket_index < splits - 1:
+            #     bucket_index += 1
+            # else:
+            #     bucket_index = 0            
             (sibling_indexes[bucket_index]) += translation[i:]
 
 
